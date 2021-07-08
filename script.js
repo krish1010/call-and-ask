@@ -147,7 +147,7 @@ if (window.innerWidth < 480) {
 
 // For API request
 
-const functionPost = function () {
+/*const functionPost = function () {
   var myHeaders = new Headers();
   myHeaders.append("X-API-Key", "7E4C8DA2E3958F6594631338C2E01DFE");
   myHeaders.append("Accept", "application/json");
@@ -179,4 +179,4 @@ const functionPost = function () {
     .catch((error) => console.log("error", error));
 };
 
-submit.addEventListener("click", functionPost);
+submit.addEventListener("click", functionPost);*/
