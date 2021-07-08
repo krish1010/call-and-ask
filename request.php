@@ -19,7 +19,7 @@
 
                 }',
           CURLOPT_HTTPHEADER => array(
-            'X-API-Key: CDA784D92036451B23B552839EC0CC8F',
+            'X-API-Key: 80C1F5C66E2F0B00E756BCA8D46C6DA8',
             'Accept: application/json',
             'Content-Type: application/json'
           ),
