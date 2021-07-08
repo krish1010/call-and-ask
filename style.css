@@ -1,0 +1,489 @@
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  transition: 0.6s;
+}
+
+/* Nav Bar */
+
+nav {
+  /* background-color: rgb(224, 224, 224); */
+  margin-top: 20px;
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+}
+
+/* ul {
+  margin: 25px 20px;
+  text-align: center;
+  float: right;
+  font-size: 14px;
+  color: #262626;
+} */
+
+a {
+  color: #262626;
+}
+.nav-icons {
+  margin: 25px 20px;
+
+  float: right;
+  font-size: 14px;
+  color: #262626;
+  /* transform: translateX(-182%); */
+  transform: scale(1.3);
+}
+
+i {
+  padding: 10px;
+  transform: scale(1.6);
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.company-name {
+  margin-left: 185px;
+  transform: translateY(-225%);
+  color: #262626;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.logo {
+  margin: 12px 96px;
+  width: 62px;
+}
+
+/* Section 1 */
+
+section {
+  margin: 20px 100px;
+}
+h1 {
+  font-size: 48px;
+}
+
+.probs {
+  width: 270px;
+  color: #fff;
+  padding-left: 10px;
+  margin-left: 160px;
+  transform: translateY(-100%);
+  background: #f99705;
+}
+
+.chat-img {
+  float: right;
+  transform: translateY(-28%);
+}
+
+.question {
+  font-size: 32px;
+}
+
+.call-btn {
+  width: 120px;
+  margin-top: 45px;
+  transition: 0.4s;
+}
+
+.call-btn:hover {
+  transform: scale(0.9);
+}
+
+.second-btn {
+  width: 100px;
+  transition: 0.4s;
+}
+
+.second-btn:hover {
+  transform: scale(0.9);
+}
+/* Section: 2  */
+/* .main{
+    margin-top: 100px;
+} */
+#know-more {
+  padding: 15px 35px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  background: linear-gradient(93.17deg, #2990bc -10.65%, #15ae93 181.54%);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 21px rgba(19, 156, 200, 0.35);
+  cursor: pointer;
+  transition: 0.4s ease-in-out;
+  transform: translateX(-15%);
+}
+#know-more:hover {
+  background: linear-gradient(93.17deg, #0fb1f7 -10.65%, #10ffd4 181.54%);
+}
+/* Modal */
+.show-modal {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.75rem 3.5rem;
+  margin: 5rem 2rem;
+  border: none;
+  background-color: #fff;
+  color: #444;
+  border-radius: 10rem;
+  cursor: pointer;
+}
+
+.close-modal {
+  position: absolute;
+  width: 48px;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.close-modal-terms {
+  position: absolute;
+  width: 48px;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.modal-terms {
+  position: absolute;
+  top: 260%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  background-color: white;
+  padding: 6rem;
+  border-radius: 5px;
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.modal h1 {
+  font-size: 48px;
+}
+
+.modal p {
+  font-size: 18px;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 400vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+/*  */
+.experts {
+  font-size: 36px;
+  margin-top: 105px;
+  text-align: right;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: right;
+}
+
+/* Section: 3 */
+.form-box {
+  width: 800px;
+  background-color: rgb(242, 242, 242);
+  padding: 25px 15px;
+  border-radius: 6px;
+  margin: auto;
+}
+
+.drop-down {
+  border: none;
+  width: 200px;
+  margin-left: 10px;
+  background-color: rgb(207, 207, 207);
+  padding: 12px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.drop-label {
+  font-size: 18px;
+}
+
+form {
+  margin-top: 30px;
+  display: grid;
+  margin-right: 170px;
+}
+
+input[type="text"],
+[type="number"] {
+  height: 36px;
+  width: 750px;
+  padding: 8px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  border-radius: 0px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+#msg {
+  height: 150px;
+  width: 750px;
+  padding: 5px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  border-radius: 0px;
+  margin-left: 10px;
+  border: 1px solid #ccc;
+}
+
+input[type="file"] {
+  font-family: "DM Sans", sans-serif;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+input[type="submit"] {
+  margin-top: 30px;
+  margin-left: 13px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  width: 150px;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 5px 5px 10px rgba(255, 199, 0, 0.5);
+  background: linear-gradient(99.33deg, #ffa800 -11.07%, #ffc700 115.13%);
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+input[type="submit"]:hover {
+  transform: scale(0.96);
+}
+
+input[type="checkbox"] {
+  transform: translate(-48%, 251%);
+}
+
+label {
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.policy-links {
+  color: #15ae93;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.disabled {
+  opacity: 0.7;
+}
+
+.error {
+  margin-left: 190px;
+  transform: translateY(-172%);
+  font-size: 17px;
+  color: red;
+}
+/* Section: 4 */
+
+.d-img {
+  /* float: right; */
+  display: block;
+  margin: auto;
+}
+
+.ask-us {
+  margin-top: 50px;
+}
+
+.changing-words::after {
+  content: "";
+  color: rgb(1, 127, 158);
+  animation: changeWords 13s linear infinite;
+}
+
+@keyframes changeWords {
+  0% {
+    content: "Stocks";
+  }
+  10% {
+    content: "Insurance";
+  }
+  20% {
+    content: "Mutual Funds";
+  }
+  30% {
+    content: "Trading & Demat";
+  }
+  40% {
+    content: "Bonds";
+  }
+  50% {
+    content: "Retirement Planning";
+  }
+  60% {
+    content: "Equity";
+  }
+  70% {
+    content: "Fixed Deposits";
+  }
+  80% {
+    content: "Real Estate";
+  }
+  90% {
+    content: "Loans";
+  }
+  100% {
+    content: "Investment";
+  }
+}
+
+.know-mob {
+  display: none;
+}
+.terms-mob {
+  display: none;
+}
+
+@media all and (max-width: 480px) {
+  .logo {
+    margin: 12px 25px;
+    width: 42px;
+  }
+  .company-name {
+    margin-left: 82px;
+    transform: translateY(-313%);
+    font-size: 18px;
+  }
+  .nav-icons {
+    margin: 84px 13px;
+    font-size: 11px;
+  }
+  section {
+    margin: 20px 36px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  .probs {
+    width: 169px;
+    margin-left: 105px;
+  }
+  .question {
+    font-size: 24px;
+  }
+
+  .call-btn{
+    width: 85px;
+  }
+  .second-btn{
+    width: 85px;
+    margin-bottom: 8px;
+  }
+
+  #know-more {
+    padding: 12px 17px;
+  }
+  .experts {
+    font-size: 26px;
+    text-align: center;
+  }
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  input[type="text"],
+  [type="number"] {
+    width: 275px;
+  }
+  #msg {
+    width: 270px;
+  }
+  input[type="submit"] {
+    width: 95px;
+    padding: 10px;
+  }
+
+  input[type="checkbox"] {
+    transform: translate(-42%, 251%);
+  }
+
+  .chat-img {
+    display: none;
+  }
+
+  .form-box {
+    width: 327px;
+  }
+
+  .modal {
+    display: none;
+  }
+  .modal-terms {
+    display: none;
+  }
+  .overlay {
+    display: none;
+  }
+  .know-mob {
+    display: block;
+  }
+  .terms-mob {
+    display: block;
+  }
+}

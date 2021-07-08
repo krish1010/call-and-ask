@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Call and Ask 📞</title>
+  </head>
+  <body>
+    <nav>
+      <a href="https://lsfs.co.in/" target="blank">
+        <img class="logo" src="/img/logo2.svg" alt="" />
+      </a>
+      <a class="nav-icons" href="https://wa.link/jq30wc" target="_blank"
+        ><i class="fab fa-whatsapp"></i
+      ></a>
+      <a class="nav-icons" href="http://" target="_blank"
+        ><i class="far fa-envelope"></i
+      ></a>
+      <ul> &nbsp; &nbsp;</ul>
+    </nav>
+    <h2 class="company-name">Lightship Financial Services</h2>
+    <section class="intro">
+      <h1 class="head" >Call & Ask Programme</h1>
+      <h1>Facing</h1>
+      <h1 class="probs">Problems?</h1>
+      <p class="question">You dont' have to be a client and it's FREE</p>
+      <img class="chat-img" src="/img/chat-img.svg" alt="" />
+      <a href="tel:+91 8001052149"><img class="call-btn" src="/img/call-btn.svg" alt="Call Us "></a> 
+      <a href="https://wa.link/jq30wc"><img class="wp-btn second-btn" src="/img/wp-btn.svg" alt="WhatsApp Us "></a> 
+      <a href="#" class="form-btn"><img class="second-btn" src="/img/form-btn.svg" alt="Go to Form "></a> 
+    </section>
+    <section class="main" >
+      
+        <button id="know-more" class="show-modal" >Know More</button><br><br>
+        <h1>Ask Us on</h1>
+        <h1 class="changing-words" ></h1>
+        <h2 class="experts" >Ask our Experts. We are open for any question. </h2>
+        <h3>Just Call and Ask and we will be happy to help you.</h3>
+        
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <h1>About Us</h1>
+      <br>
+      <p>
+        Our Call and Ask Program helps everyone for free on any issues, query, problem, questions related to Personal Finances of people. You have something to Ask? Just fill up the form below or call us directly at +91 8001052149 or simply <a href="https://wa.link/jq30wc" class="policy-links" >click here to WhatsApp Us</a>.
+
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    </section>
+    <br>
+    <section class="submit-form">
+        <br>
+        <div class="form-box">
+          <form action="index.html" onsubmit="return (validate())" >
+        
+          <label for="name">Name :</label>
+          <input class="name" type="text"  >
+          <label for="email">E-Mail :</label>
+          <input class="email" id="email" type="text" required>
+          <label for="contact">Contact No :</label>
+          <input class="mob" id="contact" type="number" required >
+          <label class="drop-label" >Choose the topic of the issue:</label>
+          <select class="drop-down">
+          <option value="stocks">Stocks</option>
+          <option value="insurance">Insurance</option>
+          <option value="mf">Mutual Funds</option>
+          <option value="bonds">Bonds</option>
+          <option value="bonds">Trading & Demat</option>
+          </select> 
+          <label for="message">Your Problem :</label>
+          <textarea id="msg" rows="4" cols="50">Please describe your problem</textarea>
+          <br>
+          <label >Attach a file (.doc, .docx, .pdf, .png, .jpeg):</label>
+          <input type="file" class="attach-file" accept="image/png,image/jpeg,image/jpg,.pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+          <input type="checkbox" id="check" class="policy" required >
+          <label for="check" >&nbsp; &nbsp; &nbsp; Click here to accept <a class="policy-links" href="https://lsfs.co.in/disclaimer.php" target="_blank">Disclaimer</a>, <a class="policy-links" href="https://lsfs.co.in/privacy-policy.php" target="_blank">Privacy Policy</a>, <a id="show-mod" class="policy-links">Terms & Conditions</a>.</label>
+          <input id="submit-btn" type="submit" value="Submit" > 
+          <span class="error-msg error hidden"> Check your Email!! </span>
+          <span class="error-msg-mobile error hidden"> Check your Number!! </span>
+        </div>
+    </form>
+    <div class="modal-terms hidden">
+      <button class="close-modal-terms">&times;</button>
+      <h1>Terms & Conditions</h1>
+      <br>
+      <ul>
+        <li>Call and Ask Program is exclusively offered free of cost with an objective to help and bring ease to People in managing their finances.</li>  
+        <li>Call and Ask Program in any means, whatsoever should not be considered Investment Advisory, Research Planning, Retirement or Insurance Planning.</li>
+        <li>The Company has right to withdraw, suspend, or call off this program anytime with-out any prior notice.</li>
+        <li>The Company, it’s employee, shareholders or directors is not liable for any loss or damage caused in connection to this Program.</li>
+        <li>The Company, it’s employee, shareholders or directors doesn’t guarantee the accuracy, completeness, applicability, suitability or implication of any of the reply made through this program.</li>
+        <li>The company shall reply to the questions asked through this Program within 2 Business Day.</li>
+      </ul>
+    </div>
+    </section>
+    <br>
+    <section class="know-mob" >
+      <h1>Know More</h1>
+      <br>
+      <p>
+        Our Call and Ask Program helps everyone for free on any issues, query, problem, questions related to Personal Finances of people. You have something to Ask? Just fill up the form below or call us directly at +91 8001052149 or simply <a href="https://wa.link/jq30wc" class="policy-links" >click here to WhatsApp Us</a>.
+
+      </p>
+    </section>
+    <section class="terms-mob">
+      <h1 >Terms & Conditions</h1>
+      <br>
+      <ul>
+        <li>Call and Ask Program is exclusively offered free of cost with an objective to help and bring ease to People in managing their finances.</li>  
+        <li>Call and Ask Program in any means, whatsoever should not be considered Investment Advisory, Research Planning, Retirement or Insurance Planning.</li>
+        <li>The Company has right to withdraw, suspend, or call off this program anytime with-out any prior notice.</li>
+        <li>The Company, it’s employee, shareholders or directors is not liable for any loss or damage caused in connection to this Program.</li>
+        <li>The Company, it’s employee, shareholders or directors doesn’t guarantee the accuracy, completeness, applicability, suitability or implication of any of the reply made through this program.</li>
+        <li>The company shall reply to the questions asked through this Program within 2 Business Day.</li>
+      </ul>
+    </section>
+    
+  </body>
+  <script src="script.js"></script>
+</html>
