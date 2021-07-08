@@ -152,6 +152,7 @@ const functionPost = function () {
   myHeaders.append("X-API-Key", "59FA5E18F8B0D0FB1125CC3D481A69CB");
   myHeaders.append("Accept", "application/json");
   myHeaders.append("Content-Type", "application/json");
+  myHeaders.append("Access-Control-Allow-Origin", "*");
 
   var raw = JSON.stringify({
     name: clientName,
