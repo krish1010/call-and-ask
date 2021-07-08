@@ -68,13 +68,13 @@
           <form action="request.php" method="post" onsubmit="return (validate())" >
         
           <label for="name">Name :</label>
-          <input class="name" type="text"  >
+          <input class="name" type="text" name="name"  >
           <label for="email">E-Mail :</label>
-          <input class="email" id="email" type="text" required>
+          <input class="email" id="email" name="email" type="text" required>
           <label for="contact">Contact No :</label>
-          <input class="mob" id="contact" type="number" required >
+          <input class="mob" id="contact" name="phone" type="number" required >
           <label class="drop-label" >Choose the topic of the issue:</label>
-          <select class="drop-down">
+          <select class="drop-down" name="topic">
           <option value="stocks">Stocks</option>
           <option value="insurance">Insurance</option>
           <option value="mf">Mutual Funds</option>
@@ -82,10 +82,10 @@
           <option value="bonds">Trading & Demat</option>
           </select> 
           <label for="message">Your Problem :</label>
-          <textarea id="msg" rows="4" cols="50">Please describe your problem</textarea>
+          <textarea id="msg" rows="4" cols="50" name="message">Please describe your problem</textarea>
           <br>
           <label >Attach a file (.doc, .docx, .pdf, .png, .jpeg):</label>
-          <input type="file" class="attach-file" accept="image/png,image/jpeg,image/jpg,.pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+          <input type="file" name="files" class="attach-file" accept="image/png,image/jpeg,image/jpg,.pdf,.doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
           <input type="checkbox" id="check" class="policy" required >
           <label for="check" >&nbsp; &nbsp; &nbsp; Click here to accept <a class="policy-links" href="https://lsfs.co.in/disclaimer.php" target="_blank">Disclaimer</a>, <a class="policy-links" href="https://lsfs.co.in/privacy-policy.php" target="_blank">Privacy Policy</a>, <a id="show-mod" class="policy-links">Terms & Conditions</a>.</label>
           <input id="submit-btn" type="submit" value="Submit" > 
