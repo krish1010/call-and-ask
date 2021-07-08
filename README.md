@@ -1,2 +1,2 @@
 # call-and-ask
-It will take data from form and create ticket using osTicket API
+It will take data from a form in the website and create ticket in task manager using osTicket API.
