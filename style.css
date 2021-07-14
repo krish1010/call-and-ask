@@ -461,6 +461,10 @@ label {
   input[type="checkbox"] {
     transform: translate(-42%, 251%);
   }
+  .error{
+    margin-left: 131px;
+    transform: translateY(-139%);
+  }    
 
   .chat-img {
     display: none;
