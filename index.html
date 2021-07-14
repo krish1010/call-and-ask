@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -25,9 +22,8 @@
       <a class="nav-icons" href="https://wa.link/jq30wc" target="_blank"
         ><i class="fab fa-whatsapp"></i
       ></a>
-      <a class="nav-icons" href="http://" target="_blank"
-        ><i class="far fa-envelope"></i
-      ></a>
+      <a class="nav-icons" href="http://" target="_blank"><i class="far fa-envelope"></i></a>
+      <a class="nav-icons" href="https://lsfs.co.in/" target="_blank"><i class="fas fa-home"></i></a>
       <ul> &nbsp; &nbsp;</ul>
     </nav>
     <h2 class="company-name">Lightship Financial Services</h2>
@@ -36,7 +32,7 @@
       <h1>Facing</h1>
       <h1 class="probs">Problems?</h1>
       <p class="question">You dont' have to be a client to ask and it's FREE</p>
-      <img class="chat-img" src="/img/chat-img.svg" alt="" />
+      <img class="chat-img" src="/img/chat-img-mod.svg" alt="" />
       <a href="tel:+91 8001052149"><img class="call-btn" src="/img/call-btn.svg" alt="Call Us "></a> 
       <a href="https://wa.link/jq30wc"><img class="wp-btn second-btn" src="/img/wp-btn.svg" alt="WhatsApp Us "></a> 
       <a href="#" class="form-btn"><img class="second-btn" src="/img/form-btn.svg" alt="Go to Form "></a> 
@@ -74,12 +70,15 @@
           <label for="contact">Contact No :</label>
           <input class="mob" id="contact" name="mobile" type="number" required >
           <label class="drop-label" >Choose the topic of the issue:</label>
-          <select class="drop-down" name="topic">
-          <option value="Stocks">Stocks</option>
-          <option value="Insurance">Insurance</option>
-          <option value="Mutual Funds">Mutual Funds</option>
-          <option value="Bonds">Bonds</option>
-          <option value="Trading & Demat">Trading & Demat</option>
+          <select class="drop-down" name="topic" required>
+          <option value="" selected> -- </option>
+          <option value="Mutual Funds:21">Mutual Funds</option>
+          <option value="Insurance:17">Insurance</option>
+          <option value="PMS:22">PMS</option>
+          <option value="Loans:18">Loans</option>
+          <option value="Trading & Demat A/C:28">Trading & Demat A/C</option>
+          <option value="Real Estate:31">Real Estate</option>
+          <option value="Other Issues:2">Other Issues</option>
           </select> 
           <label for="message">Your Problem :</label>
           <textarea id="msg" rows="4" cols="50" name="message">Please describe your problem</textarea>
@@ -130,5 +129,6 @@
     </section>
     
   </body>
+
   <script src="script.js"></script>
 </html>
