@@ -7,7 +7,7 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  transition: 0.6s;
+  transition: 2s;
 }
 
 /* Nav Bar */
@@ -55,13 +55,14 @@ i {
   margin-left: 185px;
   transform: translateY(-225%);
   color: #262626;
-  font-weight: 400;
-  font-size: 28px;
+  font-weight: 700;
+  font-size: 30px;
 }
 
 .logo {
   margin: 12px 96px;
-  width: 62px;
+  width: 66px;
+  transform: scale(1.2);
 }
 
 /* Section 1 */
@@ -219,14 +220,14 @@ h1 {
 .experts {
   font-size: 36px;
   margin-top: 105px;
-  text-align: right;
+  text-align: center;
 }
 
 h3 {
   margin-top: 30px;
   font-size: 24px;
   font-weight: 400;
-  text-align: right;
+  text-align: center;
 }
 
 /* Section: 3 */
@@ -400,12 +401,12 @@ label {
 @media all and (max-width: 480px) {
   .logo {
     margin: 12px 25px;
-    width: 42px;
+    width: 54px;
   }
   .company-name {
-    margin-left: 82px;
-    transform: translateY(-313%);
-    font-size: 18px;
+    margin-left: 100px;
+    transform: translateY(-311%);
+    font-size: 20px;
   }
   .nav-icons {
     margin: 84px 13px;
